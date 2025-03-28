@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+@theme{
+    --animate-bg-1: bgChange 4s "ease-in-out" infinite;
+    @keyframes bgChange{
+        0%,75%{
+            background:"blue"
+        }
+    }
+}
+
+@theme{
+    --animate-bg-2: bgChange 4s "ease-in-out" infinite;
+    @keyframes bgChange{
+        0%,75%{
+            background:"blue"
+        }
+    }
+}
+
+@theme{
+    --animate-bg-3: bgChange 4s "ease-in-out" infinite;
+    @keyframes bgChange{
+        0%,75%{
+            background:"blue"
+        }
+    }
+}
